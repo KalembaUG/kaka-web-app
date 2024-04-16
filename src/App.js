@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import router from './router';
+import { RouterProvider } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-  
-      Welcome to kaka web app but still under development
-      
-    </div>
+    <RouterProvider router={router}/>
   );
 }
 
