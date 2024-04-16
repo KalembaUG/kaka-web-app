@@ -7,6 +7,7 @@ import {
 import "./index.css";
 import Home from "./screens/home";
 import DeleteAccount from "./screens/deleteAccount";
+import Privacy from "./screens/privacy";
 
 
 
@@ -19,7 +20,12 @@ const router = createBrowserRouter([
     {
         path: "delete-account",
         element:<DeleteAccount/>
-  }
+    },
+    {
+        path: "privacy",
+        element:<Privacy/>
+        
+    }
 
 
   
